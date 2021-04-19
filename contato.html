@@ -1,56 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contato</title>
+   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
-        <li>
-            <a href="index.html"> Home</a>
-        </li>
-        <li>
-            <a href="contato.html"> Contato</a>
-        </li>
-    </ul>
 
-    <h1>Entre em contato comigo</h1>
+   <ul id="menu">
+      <li>
+         <a href="index.html"> Home </a>
+      </li>
+      <li>
+         <a href="contato.html"> Contato </a>
+      </li>
+   </ul>
 
-    <form>
-        <label for="nome">Nome:</label> <br>
-        <input type="text" id="nome">
+   <h1 class="center">Entre em contato comigo</h1>
 
-        <br>
-        <br>
+   <div class="container mb-50">
+      <div>
+         <form>
+            <label for="nome">Nome:</label> <br>
+            <input type="text" id="nome">
+            <br>
+            <br>
+            <label for="email">E-mail:</label> <br>
+            <input type="email" id="email">
+            <br>
+            <br>
+            <label for="assunto">Assunto:</label> <br>
+            <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+            <br>
+            <br>
+            <button>Enviar</button>
+         </form>
+      </div>
 
-        <label for="email">E-mail:</label> <br>
-        <input type="email" id="email">
+      <div class="ml-50">
+        <h2>Endereço:</h2>
 
-        <br>
-        <br>
+        <p>Alameda México, 30 - Vila Metalurgica, 09220-120</p>
+        <p>Santo André - SP</p>
 
-        <label for="assunto">Assunto</label> <br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14620.651891075391!2d-46.525879200000006!3d-23.6343339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc2706cf57173f93b!2sParque%20Regional%20Professor%20Ant%C3%B4nio%20Pezzolo%20-%20Ch%C3%A1cara%20Pignatari!5e0!3m2!1spt-BR!2sbr!4v1618585791381!5m2!1spt-BR!2sbr" 
+        width="400" 
+        height="250" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+        </iframe>
+         </div>
+   </div>
 
-        <br>
-        <br>
 
-        <button>Enviar</button>
-    </form>
+   <hr>
+   <footer>
+        <div class="container">
+        <a href="https://www.facebook.com/" target="_blank">
+            <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook">
+        </a>
+        
+        <a href="https://www.linkedin.com/" target="_blank">
+            <img class="tm-social p-30" src="assets/img/linkedin" alt="Logo do Linkedin">
+        </a>
+        
+        <a href="https://www.instagram.com/" target="_blank">
+            <img class="tm-social p-30" src="assets/img/instagram.webp" alt="Logo do Intagram">
+        </a>
+        
+        </div>
 
-    <h2>Endereço:</h2>
-
-    <p>Alameda México, 30 - Vila Metalurgica, 09220-120</p>
-    <p>Santo André - SP</p>
-
-    <iframe 
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14620.651891075391!2d-46.525879200000006!3d-23.6343339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc2706cf57173f93b!2sParque%20Regional%20Professor%20Ant%C3%B4nio%20Pezzolo%20-%20Ch%C3%A1cara%20Pignatari!5e0!3m2!1spt-BR!2sbr!4v1618585791381!5m2!1spt-BR!2sbr" 
-    width="400" 
-    height="250" 
-    style="border:0;" 
-    allowfullscreen="" 
-    loading="lazy">
-</iframe>
+        <p class="center">
+        Todos os direitos reservados: Jeniffer
+        </p> 
+    </footer>
 </body>
 </html>

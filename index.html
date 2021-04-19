@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Configuração de responsividade-->
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <!--Menu-->
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home</a>
         </li>
@@ -17,7 +18,23 @@
         </li>
     </ul>
 
-    <h1>Sobre a Jeniffer</h1>
+    <h1 class="center">Sobre</h1>
+
+    <div class="container">
+        <div>
+            <img class="br-50 wh-300 p-30" src="assets/img/WhatsApp-Image-2020-07-22-at-18.21.01.jpeg" alt="Foto do criador desse conteúdo">
+        </div>
+        <div class="p-30">
+           <p class="justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem odio possimus, dolorem earum atque itaque quas soluta placeat iure omnis porro cum debitis sequi libero! Deleniti vitae quis hic cumque.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius inventore ullam, quia deserunt enim cumque hic officia repudiandae ad ab et sapiente qui vitae accusamus adipisci provident sit assumenda laboriosam!
+           </p>
+           <p class="justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempore et pariatur, illo fugit, architecto autem aperiam, dignissimos dolore eius tenetur sunt illum inventore asperiores officia voluptates expedita explicabo perspiciatis!  
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates distinctio velit, eveniet placeat reiciendis, eum et tempora fuga doloribus repellendus, possimus rem tempore ipsam aut eligendi beatae quidem saepe temporibus.
+           </p>
+        </div>
+     </div>
 
     <h2>Meus hobbies</h2>
     <p>Confira meus hobbies a seguir:</p> 
@@ -27,25 +44,40 @@
     </p>Confira meus estudos atuais a seguir:</p> 
     <a href="estudos.html"> Estudos </a>
 
-    <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae sit molestias laudantium autem impedit veniam rerum dignissimos modi itaque. Veniam harum sit necessitatibus vel reprehenderit ut, similique suscipit minima itaque? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae tempore facere quas nostrum atque quis eius! Magnam praesentium alias sequi expedita maiores? A est ipsam, et labore illum unde recusandae.
-    <p>
-    <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde maxime nisi exercitationem vitae in neque eius eligendi magni dicta ea sunt debitis ipsum rerum, molestiae laboriosam aspernatur! Praesentium, magnam molestias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim necessitatibus, dicta corporis, voluptatem itaque animi, vero obcaecati debitis libero cupiditate quis explicabo ab. Temporibus officiis distinctio nemo quae magnam dolorum.
-    </p>
+    <h2 class="center">Meu vídeo predileto</h2>
+    <div class="container mb-50">
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/N3VQh7Q7N9M" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
 
-    <img src="assets/img/WhatsApp-Image-2020-07-22-at-18.21.01.jpeg" alt="Foto do criador desse conteúdo">
+    <hr>
 
-    <h2>Meu vídeo predileto</h2>
+   <footer>
+      <div class="container">
+         <a href="https://www.facebook.com/" target="_blank">
+            <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook">
+         </a>
+         
+         <a href="https://www.linkedin.com/" target="_blank">
+            <img class="tm-social p-30" src="assets/img/linkedin" alt="Logo do Linkedin">
+         </a>
+         
+         <a href="https://www.instagram.com/" target="_blank">
+            <img class="tm-social p-30" src="assets/img/instagram.webp" alt="Logo do Intagram">
+         </a>
+         
+      </div>
 
-    <iframe 
-        width="560" 
-        height="315" 
-        src="https://www.youtube.com/embed/N3VQh7Q7N9M" 
-        title="YouTube video player" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-    </iframe>
+      <p class="center">
+         Todos os direitos reservados: Jeniffer
+      </p> 
+   </footer>
 </body>
 </html>
